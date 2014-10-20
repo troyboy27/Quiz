@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E06AA5919F5927A00D70ED4 /* answers-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E06AA5719F5927A00D70ED4 /* answers-50.png */; };
+		5E06AA5A19F5927A00D70ED4 /* question-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E06AA5819F5927A00D70ED4 /* question-50.png */; };
 		5E24AABC19F5711C005D9501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24AABB19F5711C005D9501 /* AppDelegate.swift */; };
 		5E24AABE19F5711C005D9501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24AABD19F5711C005D9501 /* ViewController.swift */; };
 		5E24AAC119F5711C005D9501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E24AABF19F5711C005D9501 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E06AA5719F5927A00D70ED4 /* answers-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "answers-50.png"; sourceTree = "<group>"; };
+		5E06AA5819F5927A00D70ED4 /* question-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-50.png"; sourceTree = "<group>"; };
 		5E24AAB619F5711C005D9501 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E24AABA19F5711C005D9501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E24AABB19F5711C005D9501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E06AA5619F58FAC00D70ED4 /* Image Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5E06AA5719F5927A00D70ED4 /* answers-50.png */,
+				5E06AA5819F5927A00D70ED4 /* question-50.png */,
+			);
+			name = "Image Assets";
+			sourceTree = "<group>";
+		};
 		5E24AAAD19F5711C005D9501 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +95,7 @@
 				5E24AABF19F5711C005D9501 /* Main.storyboard */,
 				5E24AAC219F5711C005D9501 /* Images.xcassets */,
 				5E24AAC419F5711C005D9501 /* LaunchScreen.xib */,
+				5E06AA5619F58FAC00D70ED4 /* Image Assets */,
 				5E24AAB919F5711C005D9501 /* Supporting Files */,
 			);
 			path = Quiz;
@@ -194,6 +208,8 @@
 			files = (
 				5E24AAC119F5711C005D9501 /* Main.storyboard in Resources */,
 				5E24AAC619F5711C005D9501 /* LaunchScreen.xib in Resources */,
+				5E06AA5919F5927A00D70ED4 /* answers-50.png in Resources */,
+				5E06AA5A19F5927A00D70ED4 /* question-50.png in Resources */,
 				5E24AAC319F5711C005D9501 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +421,7 @@
 				5E24AAD719F5711C005D9501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E24AAD819F5711C005D9501 /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				5E24AADA19F5711C005D9501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
